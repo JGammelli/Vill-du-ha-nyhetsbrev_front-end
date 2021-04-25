@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(231, 222, 213);
+    padding: 1em;
+}
+
+body{
+    background-color: rgb(231, 222, 213);
+}
+
+#container{
+    width:50em;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 10em;
+    background-color: white;
+}
+.tabs{
+    width: 5em;
+    background-color: rgb(177, 177, 177);
+    padding: 8px;
+    text-align: center;
+    position: relative;
+    font-size: 1.3em;
+    font-weight: 900;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+.tabs:hover{
+    cursor: pointer;
+}
+
+#logtab{
+    background-color: rgb(255, 255, 255);
+}
+#content{
+    width: 100em;
+    height: 5em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    width: 200px;
+    margin: 5px 10px;
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+}
+
+.comm{
+    position: absolute;
+    visibility: hidden;
+}
+
+#login{
+    visibility: visible;
+}
+
+h1{
+    text-align: center;
+}
+
+
+#greet{
+    font-size: 4em;
+    padding: 4em;
+}
+p{
+    padding: 10px 15 px;
+    font-size: 1.3em;
+    color: white;
+}
+.btn{
+    all:unset;
+    padding: 1em;
+    margin-top: 1em;
+    margin-left: -7em;
+    background-color: rgb(177, 177, 177);
+    font-weight: 900;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+#outBtn:hover{
+    cursor: pointer;
+}
+
+#subBtn{
+    margin:0;
+    margin-top: 8em;
+    position: absolute;
+    width: 8em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logsub{
+    margin-left: 5em;
+}
+#regsub{
+    margin: 0;
+    margin-left: 35em;
+}
+
+#subscribeCheck{
+    width:1em;
+    margin: 5px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id = "container">
+            <div id = "tabs">
+                <p id="logtab" class = "tabs">Sign in</p>
+                <p id="regtab" class = "tabs">Register</p>
+            </div>
+
+            <div id ="content">
+                <div id = "login" class="comm">
+                    <h1>Sign in</h1>
+                    <input id = "usr" type = "text" placeholder="Username" required/> 
+                    <input id = "psw" type = "password" placeholder="Password" required/>
+                    <input id = "logsub" class = "btn" type = "submit"  value="Login"/>
+                </div>
+                <div id = "register" class = "comm">
+                    <h1>Register</h1>
+                    <input id = "inpusr" type = "text" placeholder="Username" required/>
+                    <input id = "inppsw" type ="password" placeholder="Password" required/>
+                    <div><input type="checkbox" id="subscribeCheck">I want to subscribe</div>
+                    <input id = "regsub" class = "btn" type = "submit" value="Register"/>
+                </div>
+                <div id = "logout">
+                    <button id = "outBtn" class = "btn">Sign out</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id = "welcome">
+            
+            <h1 id = "greet">
+                Hello!</br>You can choose to sign in or to register.
+            </h1>
+            <div id ="subBtn"></div>
+        </div>
+    </main>
+
+
+    <div id ="userInfo"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
