@@ -1,5 +1,7 @@
 # front-end
 
+I detta project kan man logga in, skapa ett konto och där efter kunna registrera samt avregistrera sig för nyhetsbrev.
+
 För att öppna front-end:
 
 1. Start back-end servern
